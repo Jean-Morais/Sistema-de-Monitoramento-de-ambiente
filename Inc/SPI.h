@@ -11,6 +11,7 @@
 #define SPI_H_
 
 #include <stdint.h>
+#include "stm32f1xx.h"
 
 //void spi_enable_clock();
 void spi_enable_port();

@@ -59,8 +59,8 @@ all: main-build
 main-build: Projeto\ Final\ -\ monitoramento\ de\ ambiente.elf secondary-outputs
 
 # Tool invocations
-Projeto\ Final\ -\ monitoramento\ de\ ambiente.elf Projeto\ Final\ -\ monitoramento\ de\ ambiente.map: $(OBJS) $(USER_OBJS) /home/jeanm/Documentos/EC/5semestre/Micro/Projeto\ Final\ -\ monitoramento\ de\ ambiente/STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Projeto Final - monitoramento de ambiente.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"/home/jeanm/Documentos/EC/5semestre/Micro/Projeto Final - monitoramento de ambiente/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Projeto Final - monitoramento de ambiente.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Projeto\ Final\ -\ monitoramento\ de\ ambiente.elf Projeto\ Final\ -\ monitoramento\ de\ ambiente.map: $(OBJS) $(USER_OBJS) /home/jeanm/Documentos/workspace-stm/Projeto\ Final\ -\ monitoramento\ de\ ambiente/STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Projeto Final - monitoramento de ambiente.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"/home/jeanm/Documentos/workspace-stm/Projeto Final - monitoramento de ambiente/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Projeto Final - monitoramento de ambiente.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
