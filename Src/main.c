@@ -7,8 +7,9 @@
  */
 
 #include <stdint.h>
-#include "SPI.h"
-#include "../../vamoI2C/F1_Header/Device/ST/STM32F1xx/Include/stm32f1xx.h"
+#include "stm32f1xx.h"
+#include "AHT20.h"
+
 
 int main(void){
 
