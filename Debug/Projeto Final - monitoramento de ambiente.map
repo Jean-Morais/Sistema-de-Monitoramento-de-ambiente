@@ -174,24 +174,16 @@ Discarded input sections
  .text          0x00000000        0x0 ./Src/SPI.o
  .data          0x00000000        0x0 ./Src/SPI.o
  .bss           0x00000000        0x0 ./Src/SPI.o
- .text.spi_enable_clock
-                0x00000000       0x28 ./Src/SPI.o
- .text.spi_enable_port
-                0x00000000       0x98 ./Src/SPI.o
- .text.spi_config
+ .text.enable_spi
                 0x00000000       0x6c ./Src/SPI.o
  .text.spi_transfer
                 0x00000000       0x3e ./Src/SPI.o
- .text.spi_write_reg
-                0x00000000       0x52 ./Src/SPI.o
- .text.spi_read_reg
-                0x00000000       0x56 ./Src/SPI.o
- .debug_info    0x00000000      0x36d ./Src/SPI.o
- .debug_abbrev  0x00000000      0x166 ./Src/SPI.o
+ .debug_info    0x00000000      0x17a ./Src/SPI.o
+ .debug_abbrev  0x00000000       0xd7 ./Src/SPI.o
  .debug_aranges
-                0x00000000       0x48 ./Src/SPI.o
+                0x00000000       0x28 ./Src/SPI.o
  .debug_rnglists
-                0x00000000       0x32 ./Src/SPI.o
+                0x00000000       0x19 ./Src/SPI.o
  .debug_macro   0x00000000       0xbc ./Src/SPI.o
  .debug_macro   0x00000000      0xad8 ./Src/SPI.o
  .debug_macro   0x00000000       0x22 ./Src/SPI.o
@@ -208,10 +200,10 @@ Discarded input sections
  .debug_macro   0x00000000      0xd23 ./Src/SPI.o
  .debug_macro   0x00000000     0xe09e ./Src/SPI.o
  .debug_macro   0x00000000       0x6d ./Src/SPI.o
- .debug_line    0x00000000      0x5da ./Src/SPI.o
- .debug_str     0x00000000    0x547ad ./Src/SPI.o
+ .debug_line    0x00000000      0x50a ./Src/SPI.o
+ .debug_str     0x00000000    0x546f5 ./Src/SPI.o
  .comment       0x00000000       0x44 ./Src/SPI.o
- .debug_frame   0x00000000       0xe4 ./Src/SPI.o
+ .debug_frame   0x00000000       0x60 ./Src/SPI.o
  .ARM.attributes
                 0x00000000       0x2d ./Src/SPI.o
  .group         0x00000000        0xc ./Src/conversorAD.o

@@ -1,8 +1,6 @@
 /*
  * I2C.h
  *
- *  Created on: Jul 19, 2025
- *      Author: jeanm
  */
 
 #ifndef I2C_H_

@@ -1,6 +1,2 @@
-../Src/SPI.c:11:6:spi_enable_clock	1
-../Src/SPI.c:17:6:spi_enable_port	1
-../Src/SPI.c:44:6:spi_config	1
-../Src/SPI.c:57:9:spi_transfer	3
-../Src/SPI.c:65:6:spi_write_reg	1
-../Src/SPI.c:73:9:spi_read_reg	1
+../Src/SPI.c:9:6:enable_spi	1
+../Src/SPI.c:20:9:spi_transfer	3
