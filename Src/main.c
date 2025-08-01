@@ -9,6 +9,7 @@
 #include <stdint.h>
 #include "stm32f1xx.h"
 #include "AHT20.h"
+#include "LDR.h"
 
 
 int main(void){

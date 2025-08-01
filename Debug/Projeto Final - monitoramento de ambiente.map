@@ -127,18 +127,53 @@ Discarded input sections
  .ARM.attributes
                 0x00000000       0x2d ./Src/I2C.o
  .group         0x00000000        0xc ./Src/LDR.o
+ .group         0x00000000        0xc ./Src/LDR.o
+ .group         0x00000000        0xc ./Src/LDR.o
+ .group         0x00000000        0xc ./Src/LDR.o
+ .group         0x00000000        0xc ./Src/LDR.o
+ .group         0x00000000        0xc ./Src/LDR.o
+ .group         0x00000000        0xc ./Src/LDR.o
+ .group         0x00000000        0xc ./Src/LDR.o
+ .group         0x00000000        0xc ./Src/LDR.o
+ .group         0x00000000        0xc ./Src/LDR.o
+ .group         0x00000000        0xc ./Src/LDR.o
+ .group         0x00000000        0xc ./Src/LDR.o
+ .group         0x00000000        0xc ./Src/LDR.o
+ .group         0x00000000        0xc ./Src/LDR.o
+ .group         0x00000000        0xc ./Src/LDR.o
  .text          0x00000000        0x0 ./Src/LDR.o
  .data          0x00000000        0x0 ./Src/LDR.o
  .bss           0x00000000        0x0 ./Src/LDR.o
- .debug_info    0x00000000       0x22 ./Src/LDR.o
- .debug_abbrev  0x00000000       0x12 ./Src/LDR.o
+ .text.enable_LDR
+                0x00000000       0x28 ./Src/LDR.o
+ .text.LDR_read
+                0x00000000       0x44 ./Src/LDR.o
+ .debug_info    0x00000000      0x1bc ./Src/LDR.o
+ .debug_abbrev  0x00000000       0xc5 ./Src/LDR.o
  .debug_aranges
-                0x00000000       0x18 ./Src/LDR.o
- .debug_macro   0x00000000       0x11 ./Src/LDR.o
+                0x00000000       0x28 ./Src/LDR.o
+ .debug_rnglists
+                0x00000000       0x19 ./Src/LDR.o
+ .debug_macro   0x00000000       0xc6 ./Src/LDR.o
  .debug_macro   0x00000000      0xad8 ./Src/LDR.o
- .debug_line    0x00000000       0x2d ./Src/LDR.o
- .debug_str     0x00000000     0x2e56 ./Src/LDR.o
+ .debug_macro   0x00000000       0x28 ./Src/LDR.o
+ .debug_macro   0x00000000       0x22 ./Src/LDR.o
+ .debug_macro   0x00000000       0x22 ./Src/LDR.o
+ .debug_macro   0x00000000       0x8e ./Src/LDR.o
+ .debug_macro   0x00000000       0x51 ./Src/LDR.o
+ .debug_macro   0x00000000      0x103 ./Src/LDR.o
+ .debug_macro   0x00000000       0x6a ./Src/LDR.o
+ .debug_macro   0x00000000      0x1df ./Src/LDR.o
+ .debug_macro   0x00000000       0x1c ./Src/LDR.o
+ .debug_macro   0x00000000       0x22 ./Src/LDR.o
+ .debug_macro   0x00000000       0xbd ./Src/LDR.o
+ .debug_macro   0x00000000      0xd23 ./Src/LDR.o
+ .debug_macro   0x00000000     0xe09e ./Src/LDR.o
+ .debug_macro   0x00000000       0x6d ./Src/LDR.o
+ .debug_line    0x00000000      0x53b ./Src/LDR.o
+ .debug_str     0x00000000    0x54716 ./Src/LDR.o
  .comment       0x00000000       0x44 ./Src/LDR.o
+ .debug_frame   0x00000000       0x58 ./Src/LDR.o
  .ARM.attributes
                 0x00000000       0x2d ./Src/LDR.o
  .group         0x00000000        0xc ./Src/NRF24L01.o
@@ -206,21 +241,6 @@ Discarded input sections
  .debug_frame   0x00000000       0x60 ./Src/SPI.o
  .ARM.attributes
                 0x00000000       0x2d ./Src/SPI.o
- .group         0x00000000        0xc ./Src/conversorAD.o
- .text          0x00000000        0x0 ./Src/conversorAD.o
- .data          0x00000000        0x0 ./Src/conversorAD.o
- .bss           0x00000000        0x0 ./Src/conversorAD.o
- .debug_info    0x00000000       0x22 ./Src/conversorAD.o
- .debug_abbrev  0x00000000       0x12 ./Src/conversorAD.o
- .debug_aranges
-                0x00000000       0x18 ./Src/conversorAD.o
- .debug_macro   0x00000000       0x11 ./Src/conversorAD.o
- .debug_macro   0x00000000      0xad8 ./Src/conversorAD.o
- .debug_line    0x00000000       0x35 ./Src/conversorAD.o
- .debug_str     0x00000000     0x2e5e ./Src/conversorAD.o
- .comment       0x00000000       0x44 ./Src/conversorAD.o
- .ARM.attributes
-                0x00000000       0x2d ./Src/conversorAD.o
  .group         0x00000000        0xc ./Src/main.o
  .group         0x00000000        0xc ./Src/main.o
  .group         0x00000000        0xc ./Src/main.o
@@ -702,7 +722,6 @@ LOAD ./Src/I2C.o
 LOAD ./Src/LDR.o
 LOAD ./Src/NRF24L01.o
 LOAD ./Src/SPI.o
-LOAD ./Src/conversorAD.o
 LOAD ./Src/main.o
 LOAD ./Src/syscalls.o
 LOAD ./Src/sysmem.o
@@ -980,17 +999,17 @@ LOAD /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.
  .debug_rnglists
                 0x00000013       0x19 ./Startup/startup_stm32f103c8tx.o
 
-.debug_macro    0x00000000       0xc6
- .debug_macro   0x00000000       0xc6 ./Src/main.o
+.debug_macro    0x00000000       0xd0
+ .debug_macro   0x00000000       0xd0 ./Src/main.o
 
-.debug_line     0x00000000      0x56f
- .debug_line    0x00000000      0x4f4 ./Src/main.o
- .debug_line    0x000004f4       0x7b ./Startup/startup_stm32f103c8tx.o
+.debug_line     0x00000000      0x578
+ .debug_line    0x00000000      0x4fd ./Src/main.o
+ .debug_line    0x000004fd       0x7b ./Startup/startup_stm32f103c8tx.o
 
-.debug_str      0x00000000    0x544bb
- .debug_str     0x00000000    0x544bb ./Src/main.o
-                              0x54695 (size before relaxing)
- .debug_str     0x000544bb       0x94 ./Startup/startup_stm32f103c8tx.o
+.debug_str      0x00000000    0x544c3
+ .debug_str     0x00000000    0x544c3 ./Src/main.o
+                              0x5469d (size before relaxing)
+ .debug_str     0x000544c3       0x94 ./Startup/startup_stm32f103c8tx.o
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 ./Src/main.o

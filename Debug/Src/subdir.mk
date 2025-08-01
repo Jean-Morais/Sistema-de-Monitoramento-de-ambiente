@@ -10,7 +10,6 @@ C_SRCS += \
 ../Src/LDR.c \
 ../Src/NRF24L01.c \
 ../Src/SPI.c \
-../Src/conversorAD.c \
 ../Src/main.c \
 ../Src/syscalls.c \
 ../Src/sysmem.c 
@@ -21,7 +20,6 @@ OBJS += \
 ./Src/LDR.o \
 ./Src/NRF24L01.o \
 ./Src/SPI.o \
-./Src/conversorAD.o \
 ./Src/main.o \
 ./Src/syscalls.o \
 ./Src/sysmem.o 
@@ -32,7 +30,6 @@ C_DEPS += \
 ./Src/LDR.d \
 ./Src/NRF24L01.d \
 ./Src/SPI.d \
-./Src/conversorAD.d \
 ./Src/main.d \
 ./Src/syscalls.d \
 ./Src/sysmem.d 
@@ -45,7 +42,7 @@ Src/%.o Src/%.su Src/%.cyclo: ../Src/%.c Src/subdir.mk
 clean: clean-Src
 
 clean-Src:
-	-$(RM) ./Src/AHT20.cyclo ./Src/AHT20.d ./Src/AHT20.o ./Src/AHT20.su ./Src/I2C.cyclo ./Src/I2C.d ./Src/I2C.o ./Src/I2C.su ./Src/LDR.cyclo ./Src/LDR.d ./Src/LDR.o ./Src/LDR.su ./Src/NRF24L01.cyclo ./Src/NRF24L01.d ./Src/NRF24L01.o ./Src/NRF24L01.su ./Src/SPI.cyclo ./Src/SPI.d ./Src/SPI.o ./Src/SPI.su ./Src/conversorAD.cyclo ./Src/conversorAD.d ./Src/conversorAD.o ./Src/conversorAD.su ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+	-$(RM) ./Src/AHT20.cyclo ./Src/AHT20.d ./Src/AHT20.o ./Src/AHT20.su ./Src/I2C.cyclo ./Src/I2C.d ./Src/I2C.o ./Src/I2C.su ./Src/LDR.cyclo ./Src/LDR.d ./Src/LDR.o ./Src/LDR.su ./Src/NRF24L01.cyclo ./Src/NRF24L01.d ./Src/NRF24L01.o ./Src/NRF24L01.su ./Src/SPI.cyclo ./Src/SPI.d ./Src/SPI.o ./Src/SPI.su ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
 
 .PHONY: clean-Src
 
