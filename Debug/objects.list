@@ -3,6 +3,7 @@
 "./Src/LDR.o"
 "./Src/NRF24L01.o"
 "./Src/SPI.o"
+"./Src/conversorAD.o"
 "./Src/main.o"
 "./Src/syscalls.o"
 "./Src/sysmem.o"
