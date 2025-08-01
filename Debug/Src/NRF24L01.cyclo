@@ -1,0 +1,6 @@
+../Src/NRF24L01.c:15:6:nrf_write_register	1
+../Src/NRF24L01.c:22:6:nrf_config	3
+../Src/NRF24L01.c:48:9:nrf_get_status	1
+../Src/NRF24L01.c:55:6:nrf_write_command	1
+../Src/NRF24L01.c:61:9:nrf_read_register	1
+../Src/NRF24L01.c:69:9:send_payload	5

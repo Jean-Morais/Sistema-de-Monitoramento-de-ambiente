@@ -1,0 +1,4 @@
+/home/jeanm/Documentos/workspace-stm/Projeto Final - monitoramento de ambiente/F1_Header/Include/core_cm3.h:1511:22:__NVIC_EnableIRQ	2
+../Src/TIMER.c:12:6:TIM2_IRQHandler	2
+../Src/TIMER.c:21:6:enable_timer	1
+../Src/TIMER.c:28:6:delay_us	2

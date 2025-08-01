@@ -1,0 +1,4 @@
+../Src/USART.c:10:6:enable_usart	1
+../Src/USART.c:20:6:uart1_write_char	3
+../Src/USART.c:26:6:uart1_write_string	2
+../Src/USART.c:32:6:enviar_temp_press	1
