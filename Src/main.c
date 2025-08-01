@@ -6,9 +6,11 @@
  * 					 Gabriel
  */
 
+
 #include <stdint.h>
 #include "stm32f1xx.h"
-#include "AHT20.h"
+#include "BMP280.h"
+#include "NRF24L01.h"
 #include "LDR.h"
 
 

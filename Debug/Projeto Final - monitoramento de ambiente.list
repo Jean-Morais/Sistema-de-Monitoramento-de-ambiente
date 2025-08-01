@@ -35,17 +35,17 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  15 .debug_rnglists 0000002c  00000000  00000000  000013c8  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_macro  000000d0  00000000  00000000  000013f4  2**0
+ 16 .debug_macro  000000d9  00000000  00000000  000013f4  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   00000578  00000000  00000000  000014c4  2**0
+ 17 .debug_line   00000587  00000000  00000000  000014cd  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    000544c3  00000000  00000000  00001a3c  2**0
+ 18 .debug_str    0005455a  00000000  00000000  00001a54  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000043  00000000  00000000  00055eff  2**0
+ 19 .comment      00000043  00000000  00000000  00055fae  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00000054  00000000  00000000  00055f44  2**2
+ 20 .debug_frame  00000054  00000000  00000000  00055ff4  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line_str 00000078  00000000  00000000  00055f98  2**0
+ 21 .debug_line_str 00000078  00000000  00000000  00056048  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -79,8 +79,8 @@ Disassembly of section .text:
  800016c:	08000214 	.word	0x08000214
 
 08000170 <main>:
-#include "stm32f1xx.h"
-#include "AHT20.h"
+#include "BMP280.h"
+#include "NRF24L01.h"
 #include "LDR.h"
 
 

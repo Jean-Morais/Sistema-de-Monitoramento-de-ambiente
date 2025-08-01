@@ -1,0 +1,6 @@
+../Src/BMP280.c:17:6:BMP280_WriteReg	1
+../Src/BMP280.c:25:6:BMP280_ReadRegMulti	2
+../Src/BMP280.c:40:6:BMP280_ReadCalibration	1
+../Src/BMP280.c:58:6:BMP280_Init	1
+../Src/BMP280.c:64:9:BMP280_ReadTemperature	1
+../Src/BMP280.c:78:10:BMP280_ReadPressure	2

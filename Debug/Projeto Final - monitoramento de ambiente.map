@@ -38,6 +38,12 @@ Archive member included to satisfy reference by file (symbol)
                               /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(libc_a-findfp.o) (_fflush_r)
 /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(libc_a-sbrkr.o)
                               /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(libc_a-mallocr.o) (_sbrk_r)
+/opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_aeabi_ldivmod.o)
+                              ./Src/BMP280.o (__aeabi_ldivmod)
+/opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_udivmoddi4.o)
+                              /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_aeabi_ldivmod.o) (__udivmoddi4)
+/opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_dvmd_tls.o)
+                              /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_aeabi_ldivmod.o) (__aeabi_ldiv0)
 
 Discarded input sections
 
@@ -53,21 +59,79 @@ Discarded input sections
  .ARM.exidx     0x00000000       0x10 /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
  .ARM.attributes
                 0x00000000       0x1b /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
- .group         0x00000000        0xc ./Src/AHT20.o
- .text          0x00000000        0x0 ./Src/AHT20.o
- .data          0x00000000        0x0 ./Src/AHT20.o
- .bss           0x00000000        0x0 ./Src/AHT20.o
- .debug_info    0x00000000       0x22 ./Src/AHT20.o
- .debug_abbrev  0x00000000       0x12 ./Src/AHT20.o
+ .group         0x00000000        0xc ./Src/BMP280.o
+ .group         0x00000000        0xc ./Src/BMP280.o
+ .group         0x00000000        0xc ./Src/BMP280.o
+ .group         0x00000000        0xc ./Src/BMP280.o
+ .group         0x00000000        0xc ./Src/BMP280.o
+ .group         0x00000000        0xc ./Src/BMP280.o
+ .group         0x00000000        0xc ./Src/BMP280.o
+ .group         0x00000000        0xc ./Src/BMP280.o
+ .group         0x00000000        0xc ./Src/BMP280.o
+ .group         0x00000000        0xc ./Src/BMP280.o
+ .group         0x00000000        0xc ./Src/BMP280.o
+ .group         0x00000000        0xc ./Src/BMP280.o
+ .group         0x00000000        0xc ./Src/BMP280.o
+ .group         0x00000000        0xc ./Src/BMP280.o
+ .group         0x00000000        0xc ./Src/BMP280.o
+ .group         0x00000000        0xc ./Src/BMP280.o
+ .text          0x00000000        0x0 ./Src/BMP280.o
+ .data          0x00000000        0x0 ./Src/BMP280.o
+ .bss           0x00000000        0x0 ./Src/BMP280.o
+ .bss.dig_T1    0x00000000        0x2 ./Src/BMP280.o
+ .bss.dig_T2    0x00000000        0x2 ./Src/BMP280.o
+ .bss.dig_T3    0x00000000        0x2 ./Src/BMP280.o
+ .bss.dig_P1    0x00000000        0x2 ./Src/BMP280.o
+ .bss.dig_P2    0x00000000        0x2 ./Src/BMP280.o
+ .bss.dig_P3    0x00000000        0x2 ./Src/BMP280.o
+ .bss.dig_P4    0x00000000        0x2 ./Src/BMP280.o
+ .bss.dig_P5    0x00000000        0x2 ./Src/BMP280.o
+ .bss.dig_P6    0x00000000        0x2 ./Src/BMP280.o
+ .bss.dig_P7    0x00000000        0x2 ./Src/BMP280.o
+ .bss.dig_P8    0x00000000        0x2 ./Src/BMP280.o
+ .bss.dig_P9    0x00000000        0x2 ./Src/BMP280.o
+ .bss.t_fine    0x00000000        0x4 ./Src/BMP280.o
+ .text.BMP280_WriteReg
+                0x00000000       0x36 ./Src/BMP280.o
+ .text.BMP280_ReadRegMulti
+                0x00000000       0x6e ./Src/BMP280.o
+ .text.BMP280_ReadCalibration
+                0x00000000      0x140 ./Src/BMP280.o
+ .text.BMP280_Init
+                0x00000000       0x1c ./Src/BMP280.o
+ .text.BMP280_ReadTemperature
+                0x00000000       0xa8 ./Src/BMP280.o
+ .text.BMP280_ReadPressure
+                0x00000000      0x5b8 ./Src/BMP280.o
+ .debug_info    0x00000000      0x406 ./Src/BMP280.o
+ .debug_abbrev  0x00000000      0x182 ./Src/BMP280.o
  .debug_aranges
-                0x00000000       0x18 ./Src/AHT20.o
- .debug_macro   0x00000000       0x11 ./Src/AHT20.o
- .debug_macro   0x00000000      0xad8 ./Src/AHT20.o
- .debug_line    0x00000000       0x2f ./Src/AHT20.o
- .debug_str     0x00000000     0x2e58 ./Src/AHT20.o
- .comment       0x00000000       0x44 ./Src/AHT20.o
+                0x00000000       0x48 ./Src/BMP280.o
+ .debug_rnglists
+                0x00000000       0x34 ./Src/BMP280.o
+ .debug_macro   0x00000000       0xcf ./Src/BMP280.o
+ .debug_macro   0x00000000      0xad8 ./Src/BMP280.o
+ .debug_macro   0x00000000       0x22 ./Src/BMP280.o
+ .debug_macro   0x00000000       0x8e ./Src/BMP280.o
+ .debug_macro   0x00000000       0x51 ./Src/BMP280.o
+ .debug_macro   0x00000000      0x103 ./Src/BMP280.o
+ .debug_macro   0x00000000       0x6a ./Src/BMP280.o
+ .debug_macro   0x00000000      0x1df ./Src/BMP280.o
+ .debug_macro   0x00000000       0x28 ./Src/BMP280.o
+ .debug_macro   0x00000000       0x22 ./Src/BMP280.o
+ .debug_macro   0x00000000       0x1c ./Src/BMP280.o
+ .debug_macro   0x00000000       0x22 ./Src/BMP280.o
+ .debug_macro   0x00000000       0xbd ./Src/BMP280.o
+ .debug_macro   0x00000000      0xd23 ./Src/BMP280.o
+ .debug_macro   0x00000000     0xe09e ./Src/BMP280.o
+ .debug_macro   0x00000000       0x6d ./Src/BMP280.o
+ .debug_macro   0x00000000       0x2e ./Src/BMP280.o
+ .debug_line    0x00000000      0x789 ./Src/BMP280.o
+ .debug_str     0x00000000    0x548bf ./Src/BMP280.o
+ .comment       0x00000000       0x44 ./Src/BMP280.o
+ .debug_frame   0x00000000       0xf4 ./Src/BMP280.o
  .ARM.attributes
-                0x00000000       0x2d ./Src/AHT20.o
+                0x00000000       0x2d ./Src/BMP280.o
  .group         0x00000000        0xc ./Src/I2C.o
  .group         0x00000000        0xc ./Src/I2C.o
  .group         0x00000000        0xc ./Src/I2C.o
@@ -256,6 +320,7 @@ Discarded input sections
  .group         0x00000000        0xc ./Src/main.o
  .group         0x00000000        0xc ./Src/main.o
  .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
  .text          0x00000000        0x0 ./Src/main.o
  .data          0x00000000        0x0 ./Src/main.o
  .bss           0x00000000        0x0 ./Src/main.o
@@ -274,6 +339,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xd23 ./Src/main.o
  .debug_macro   0x00000000     0xe09e ./Src/main.o
  .debug_macro   0x00000000       0x6d ./Src/main.o
+ .debug_macro   0x00000000       0x2e ./Src/main.o
  .group         0x00000000        0xc ./Src/syscalls.o
  .group         0x00000000        0xc ./Src/syscalls.o
  .group         0x00000000        0xc ./Src/syscalls.o
@@ -694,6 +760,25 @@ Discarded input sections
  .debug_frame   0x00000000       0x2c /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(libc_a-sbrkr.o)
  .ARM.attributes
                 0x00000000       0x2d /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(libc_a-sbrkr.o)
+ .text          0x00000000       0xa0 /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x00000000        0x0 /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .bss           0x00000000        0x0 /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .debug_frame   0x00000000       0x44 /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .ARM.attributes
+                0x00000000       0x1d /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .text          0x00000000      0x300 /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x00000000        0x0 /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x00000000        0x8 /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00000000       0x34 /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x00000000       0x2d /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_udivmoddi4.o)
+ .text          0x00000000        0x4 /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000       0x1d /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtend.o
  .data          0x00000000        0x0 /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtend.o
  .bss           0x00000000        0x0 /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtend.o
@@ -717,7 +802,7 @@ Linker script and memory map
 LOAD /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crti.o
 LOAD /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
 LOAD /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
-LOAD ./Src/AHT20.o
+LOAD ./Src/BMP280.o
 LOAD ./Src/I2C.o
 LOAD ./Src/LDR.o
 LOAD ./Src/NRF24L01.o
@@ -999,17 +1084,17 @@ LOAD /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.
  .debug_rnglists
                 0x00000013       0x19 ./Startup/startup_stm32f103c8tx.o
 
-.debug_macro    0x00000000       0xd0
- .debug_macro   0x00000000       0xd0 ./Src/main.o
+.debug_macro    0x00000000       0xd9
+ .debug_macro   0x00000000       0xd9 ./Src/main.o
 
-.debug_line     0x00000000      0x578
- .debug_line    0x00000000      0x4fd ./Src/main.o
- .debug_line    0x000004fd       0x7b ./Startup/startup_stm32f103c8tx.o
+.debug_line     0x00000000      0x587
+ .debug_line    0x00000000      0x50c ./Src/main.o
+ .debug_line    0x0000050c       0x7b ./Startup/startup_stm32f103c8tx.o
 
-.debug_str      0x00000000    0x544c3
- .debug_str     0x00000000    0x544c3 ./Src/main.o
-                              0x5469d (size before relaxing)
- .debug_str     0x000544c3       0x94 ./Startup/startup_stm32f103c8tx.o
+.debug_str      0x00000000    0x5455a
+ .debug_str     0x00000000    0x5455a ./Src/main.o
+                              0x54734 (size before relaxing)
+ .debug_str     0x0005455a       0x94 ./Startup/startup_stm32f103c8tx.o
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 ./Src/main.o

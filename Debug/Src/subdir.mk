@@ -5,7 +5,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../Src/AHT20.c \
+../Src/BMP280.c \
 ../Src/I2C.c \
 ../Src/LDR.c \
 ../Src/NRF24L01.c \
@@ -15,7 +15,7 @@ C_SRCS += \
 ../Src/sysmem.c 
 
 OBJS += \
-./Src/AHT20.o \
+./Src/BMP280.o \
 ./Src/I2C.o \
 ./Src/LDR.o \
 ./Src/NRF24L01.o \
@@ -25,7 +25,7 @@ OBJS += \
 ./Src/sysmem.o 
 
 C_DEPS += \
-./Src/AHT20.d \
+./Src/BMP280.d \
 ./Src/I2C.d \
 ./Src/LDR.d \
 ./Src/NRF24L01.d \
@@ -42,7 +42,7 @@ Src/%.o Src/%.su Src/%.cyclo: ../Src/%.c Src/subdir.mk
 clean: clean-Src
 
 clean-Src:
-	-$(RM) ./Src/AHT20.cyclo ./Src/AHT20.d ./Src/AHT20.o ./Src/AHT20.su ./Src/I2C.cyclo ./Src/I2C.d ./Src/I2C.o ./Src/I2C.su ./Src/LDR.cyclo ./Src/LDR.d ./Src/LDR.o ./Src/LDR.su ./Src/NRF24L01.cyclo ./Src/NRF24L01.d ./Src/NRF24L01.o ./Src/NRF24L01.su ./Src/SPI.cyclo ./Src/SPI.d ./Src/SPI.o ./Src/SPI.su ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+	-$(RM) ./Src/BMP280.cyclo ./Src/BMP280.d ./Src/BMP280.o ./Src/BMP280.su ./Src/I2C.cyclo ./Src/I2C.d ./Src/I2C.o ./Src/I2C.su ./Src/LDR.cyclo ./Src/LDR.d ./Src/LDR.o ./Src/LDR.su ./Src/NRF24L01.cyclo ./Src/NRF24L01.d ./Src/NRF24L01.o ./Src/NRF24L01.su ./Src/SPI.cyclo ./Src/SPI.d ./Src/SPI.o ./Src/SPI.su ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
 
 .PHONY: clean-Src
 

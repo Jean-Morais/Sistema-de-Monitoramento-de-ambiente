@@ -1,4 +1,4 @@
-"./Src/AHT20.o"
+"./Src/BMP280.o"
 "./Src/I2C.o"
 "./Src/LDR.o"
 "./Src/NRF24L01.o"
